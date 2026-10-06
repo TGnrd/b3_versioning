@@ -4,5 +4,5 @@ import { addition } from "./calcul.mjs";
 
 
 test("additionne deux nombres", () => {
- assert.equal(addition(2, 3), 6);
+ assert.equal(addition(2, 3), 5);
 });
