@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "lint:html": "html-validate \"**/*.html\""
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/TGnrd/b3_versioning/issues"
   },
-  "homepage": "https://github.com/TGnrd/b3_versioning#readme"
+  "homepage": "https://github.com/TGnrd/b3_versioning#readme",
+  "devDependencies": {
+    "html-validate": "^11.16.2"
+  }
 }
